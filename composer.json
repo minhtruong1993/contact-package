@@ -1,7 +1,8 @@
 {
     "name": "minhtruong1993/contact-package",
     "description": ":package_description",
-    "license": "license",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "minhtruong",
@@ -9,6 +10,7 @@
             "homepage": "https://github.com/minhtruong1993/contact-package"
         }
     ],
+    "minimum-stability": "dev",
     "homepage": "https://github.com/minhtruong1993/contact-package",
     "keywords": ["Laravel", "Contact"],
     "require": {
