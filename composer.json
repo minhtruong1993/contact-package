@@ -1,0 +1,41 @@
+{
+    "name": "mt/contact",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "minhtruong",
+            "email": "http.mt.html@gmail.com",
+            "homepage": "https://github.com/minhtruong1993/contact"
+        }
+    ],
+    "homepage": "https://github.com/minhtruong1993/contact",
+    "keywords": ["Laravel", "Contact"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mt\\Contact\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mt\\Contact\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mt\\Contact\\ContactServiceProvider"
+            ],
+            "aliases": {
+                "Contact": "Mt\\Contact\\Facades\\Contact"
+            }
+        }
+    }
+}
