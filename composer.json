@@ -6,10 +6,10 @@
         {
             "name": "minhtruong",
             "email": "http.mt.html@gmail.com",
-            "homepage": "https://github.com/minhtruong1993/contact"
+            "homepage": "https://github.com/minhtruong1993/contact-package"
         }
     ],
-    "homepage": "https://github.com/minhtruong1993/contact",
+    "homepage": "https://github.com/minhtruong1993/contact-package",
     "keywords": ["Laravel", "Contact"],
     "require": {
         "illuminate/support": "~7|~8"
